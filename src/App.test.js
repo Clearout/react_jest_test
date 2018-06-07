@@ -9,7 +9,7 @@ it("App renders without crashing", () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it("App renders the BoostTable component", () => {
+it("App renders the TestTable component", () => {
   const app = mount(<App />);
-  expect(app.find("BoostTable")).toBeTruthy();
+  expect(app.find("TestTable")).toBeTruthy();
 });

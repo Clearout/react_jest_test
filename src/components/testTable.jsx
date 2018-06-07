@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-export default class BoostTable extends Component {
+export default class TestTable extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -36,12 +36,12 @@ export default class BoostTable extends Component {
   }
 }
 
-BoostTable.defaultProps = {
+TestTable.defaultProps = {
   title: "",
   data: []
 };
 
-BoostTable.propTypes = {
+TestTable.propTypes = {
   title: PropTypes.string,
   data: PropTypes.array
 };
